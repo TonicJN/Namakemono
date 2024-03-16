@@ -53,12 +53,13 @@ h2 {
 }
 
 .catch {
-  min-width: calc(100% - 320px);
+  min-width: calc((100% - 10%) / 2);
   position: absolute;
   background: rgba(96, 155, 28, 0.402);
   margin: 64px 64px;
  }
 
+ 
  h3 {
   font-weight: lighter;
   text-align: center;
@@ -163,7 +164,8 @@ header {
 }
 
 .catch {
-  width: 400px;
+  max-width: calc((100% - 32px) / 2);
+  min-width: 320px;
 }
 }
 
