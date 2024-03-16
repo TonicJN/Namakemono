@@ -167,7 +167,7 @@ header {
   max-width: calc((100% - 40px) / 2);
   min-width: 280px;
   position: absolute;
-
+  margin: 64px 32px;
 }
 
 h2 {
