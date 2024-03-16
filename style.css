@@ -2,7 +2,7 @@
 
 body {
   margin: 0;
-
+ 
 }
 
 /* ヘッダー */
@@ -164,8 +164,12 @@ header {
 }
 
 .catch {
-  max-width: calc((100% - 32px) / 2);
-  min-width: 320px;
+  max-width: calc((100% - 40px) / 2);
+  min-width: 280px;
+}
+
+h2 {
+  font-size: 18px;
 }
 }
 
