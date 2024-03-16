@@ -203,6 +203,17 @@ header {
   min-width: 280px;
   position: absolute;
   margin: 64px 32px;
+  animation: moving 3s forwards 0.5s;
+  opacity: 0;
+  transform: translateX(-20px);
+ }
+
+
+ @keyframes moving {
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 h2 {
