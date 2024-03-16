@@ -103,6 +103,30 @@ ul {
   }
 }
 
+.namatube {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.namatube > i {
+  margin: 0;
+  
+}
+
+a > i {
+  color: red;
+}
+
+h5 {
+  margin: 0;
+  font-weight: lighter;
+  font-size: 18px;
+  padding-top: 24px;
+  display: inline;
+ 
+}
+
 /* フッター */
 
 h4 {
