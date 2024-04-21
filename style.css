@@ -72,7 +72,7 @@ h2 {
 
  
  h3 {
-  font-weight: lighter;
+  font-weight: bold;
   text-align: center;
  }
 
@@ -136,6 +136,39 @@ h5 {
   padding-top: 24px;
   display: inline;
  
+}
+
+.nikki {
+  padding: 64px 0 64px;
+}
+
+.diary-1,.diary-2,.diary-3,.diary-4 { 
+     justify-content: center;
+    
+}
+
+.diary-1 > img {
+  display: flex;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.diary-2 > img {
+  display: flex;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.diary-3 > img {
+  display: flex;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.diary-4 > img {
+  display: flex;
+  margin: auto;
+  border-radius: 10px;
 }
 
 /* フッター */
@@ -220,4 +253,3 @@ h2 {
   font-size: 18px;
 }
 }
-
